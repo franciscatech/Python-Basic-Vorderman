@@ -13,3 +13,5 @@ def num_input(prompt):
 a = num_input("Introduce a")
 b = num_input("Introduce b")
 print("a + b =", a + b)
+
+#Ejercicios de funciones en Python del libro Introducción a la informática. 
