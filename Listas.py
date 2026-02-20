@@ -13,3 +13,5 @@ print(maleta)
 print(maleta[1])
 print(maleta[1] [2])
 
+
+#Ejercicios sobre listas. 
