@@ -33,7 +33,6 @@ def controlador_de_tortuga(do, val):
     else: print("Comando desconocido:", do)
 
 def artista_de_cadena(program):
-    # Esta es la versión corregida que no falla con espacios o comillas
     lista_comando = program.split("-")
     for comando in lista_comando:
         comando = comando.strip().replace('"', '').replace("'", "")
@@ -72,3 +71,10 @@ while True:
         break
 
 print("Programa finalizado.")
+
+## 🌟 Códigos Secretos para Probar
+Copia y pega estas cadenas en la consola cuando el programa esté activo:
+
+- Estrella perfecta: `F100-R144-F100-R144-F100-R144-F100-R144-F100`
+- Hexágono: `F60-R60-F60-R60-F60-R60-F60-R60-F60-R60-F60-R60`
+- Escalera: `F30-L90-F30-R90-F30-L90-F30-R90-F30-L90-F30-R90`
